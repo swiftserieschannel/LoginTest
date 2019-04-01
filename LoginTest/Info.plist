@@ -2,10 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>This app will user your photo library</string>
 	<key>NSCameraUsageDescription</key>
-	<string>This app will use your camera!</string>
+	<string>This is for photo sharing</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This is for photo sharing</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>CFBundleDisplayName</key>
 	<string></string>
 	<key>CFBundleDevelopmentRegion</key>
@@ -52,14 +54,14 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb610566702704606</string>
+				<string>fb643112519478143</string>
 			</array>
 		</dict>
 	</array>
 	<key>FacebookAppID</key>
-	<string>610566702704606</string>
+	<string>643112519478143</string>
 	<key>FacebookDisplayName</key>
-	<string>Login Test</string>
+	<string>SDKCompleteIntegration</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>fb</string>

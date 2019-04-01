@@ -12,7 +12,7 @@
 		1749921A223541E300D43D54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17499218223541E300D43D54 /* Main.storyboard */; };
 		1749921C223541E400D43D54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1749921B223541E400D43D54 /* Assets.xcassets */; };
 		1749921F223541E400D43D54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1749921D223541E400D43D54 /* LaunchScreen.storyboard */; };
-		17B6C9E62239753B009ABD6A /* MainNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B6C9E52239753B009ABD6A /* MainNavigationViewController.swift */; };
+		17B6DE3A224C716C00D7F298 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B6DE39224C716C00D7F298 /* MainNavigationController.swift */; };
 		17E116D722354384001D1CA9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E116D622354384001D1CA9 /* ProfileViewController.swift */; };
 		7892652DCC29E1E2A33094F5 /* Pods_LoginTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 922CFA4E7E968DB406AE84F9 /* Pods_LoginTest.framework */; };
 /* End PBXBuildFile section */
@@ -25,7 +25,7 @@
 		1749921B223541E400D43D54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1749921E223541E400D43D54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17499220223541E400D43D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		17B6C9E52239753B009ABD6A /* MainNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationViewController.swift; sourceTree = "<group>"; };
+		17B6DE39224C716C00D7F298 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		17E116D622354384001D1CA9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		57FD8A65497633921AE86F72 /* Pods-LoginTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginTest.release.xcconfig"; path = "Target Support Files/Pods-LoginTest/Pods-LoginTest.release.xcconfig"; sourceTree = "<group>"; };
 		6B86E8DA0935BAD665FB28F7 /* Pods-LoginTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginTest.debug.xcconfig"; path = "Target Support Files/Pods-LoginTest/Pods-LoginTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 				1749921D223541E400D43D54 /* LaunchScreen.storyboard */,
 				17499220223541E400D43D54 /* Info.plist */,
 				17E116D622354384001D1CA9 /* ProfileViewController.swift */,
-				17B6C9E52239753B009ABD6A /* MainNavigationViewController.swift */,
+				17B6DE39224C716C00D7F298 /* MainNavigationController.swift */,
 			);
 			path = LoginTest;
 			sourceTree = "<group>";
@@ -231,8 +231,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				17E116D722354384001D1CA9 /* ProfileViewController.swift in Sources */,
-				17B6C9E62239753B009ABD6A /* MainNavigationViewController.swift in Sources */,
 				17499217223541E300D43D54 /* LoginViewController.swift in Sources */,
+				17B6DE3A224C716C00D7F298 /* MainNavigationController.swift in Sources */,
 				17499215223541E300D43D54 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

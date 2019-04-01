@@ -13,17 +13,18 @@ class LoginViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         if AccessToken.current != nil{
           
+            let mvc = self.storyboard?.instantiateViewController(withIdentifier: "MainNavigationController") as? MainNavigationController
+            self.present(mvc!, animated: true, completion: nil)
             
-            let mnvc = self.storyboard?.instantiateViewController(withIdentifier: "MainNavigationViewController") as? MainNavigationViewController
-            self.present(mnvc!, animated: true, completion: nil)
         }
     }
 
     @IBAction func logintBtnClicked(_ sender: Any) {
         
         if AccessToken.current != nil{
-            let mnvc = self.storyboard?.instantiateViewController(withIdentifier: "MainNavigationViewController") as? MainNavigationViewController
-            self.present(mnvc!, animated: true, completion: nil)
+            let mvc = self.storyboard?.instantiateViewController(withIdentifier: "MainNavigationController") as? MainNavigationController
+            self.present(mvc!, animated: true, completion: nil)
+
         }else{
             let manager = LoginManager()
             manager.logIn(readPermissions: [ReadPermission.publicProfile,ReadPermission.email,ReadPermission.userGender,ReadPermission.userBirthday], viewController: self) { loginResult in
@@ -35,8 +36,8 @@ class LoginViewController: UIViewController {
                     print("User cancelled login.")
                 case .success( _, _, _):
                     print("Logged in!")
-                    let pvc = self.storyboard?.instantiateViewController(withIdentifier: "ProfileViewController") as? ProfileViewController
-                    self.present(pvc!, animated: true, completion: nil)
+                    let mvc = self.storyboard?.instantiateViewController(withIdentifier: "MainNavigationController") as? MainNavigationController
+                    self.present(mvc!, animated: true, completion: nil)
                 }
             }
         }

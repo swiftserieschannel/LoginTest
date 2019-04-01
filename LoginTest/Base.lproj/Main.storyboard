@@ -172,25 +172,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bkt-25-PTb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2510" y="27"/>
+            <point key="canvasLocation" x="2832.8000000000002" y="26.53673163418291"/>
         </scene>
-        <!--Main Navigation View Controller-->
-        <scene sceneID="OkJ-HD-ZaQ">
+        <!--Main Navigation Controller-->
+        <scene sceneID="lGa-nR-Ao5">
             <objects>
-                <navigationController storyboardIdentifier="MainNavigationViewController" automaticallyAdjustsScrollViewInsets="NO" id="HSw-54-yBv" customClass="MainNavigationViewController" customModule="LoginTest" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="MainNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="8rK-MP-EKr" customClass="MainNavigationController" customModule="LoginTest" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wCT-c7-gWY">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Y11-lV-D1B">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="eKw-dp-zLg" kind="relationship" relationship="rootViewController" id="2Tl-3E-vae"/>
+                        <segue destination="eKw-dp-zLg" kind="relationship" relationship="rootViewController" id="yX2-vx-liF"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iEj-7Z-K96" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Evm-Ia-wao" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1566" y="27"/>
+            <point key="canvasLocation" x="1893.5999999999999" y="26.53673163418291"/>
         </scene>
     </scenes>
     <resources>
